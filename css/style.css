@@ -1,0 +1,36 @@
+.jackpot {
+    background: #5A5A5A;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background:  #000000;
+}
+
+p {
+	color: #FFFFFF;
+}
+
+h1 {
+	color:  green;
+    background: black;
+    padding: 5px;
+}
+
+@media(max-width:  992px){
+	.section-container {
+		padding: 0 25px;
+	}
+
+	h1 {
+		font-size:  25px;
+	}
+}
